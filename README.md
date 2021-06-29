@@ -5,7 +5,6 @@ OpenLark: Lark Open Platform Python SDK  / 飞书开发平台 Python SDK
 
 ## 使用方法
 
-基础使用方法：
 ```python
 from feishu.api import OpenLark
 
