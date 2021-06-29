@@ -35,6 +35,7 @@ from feishu.api_mina import APIMinaMixin
 from feishu.api_oauth import APIOAuthMixin
 from feishu.api_pay import APIPayMixin
 from feishu.api_user import APIUserMixin
+from feishu.api_bitable import APIBitableMixin
 from feishu.exception import LarkGetAppTicketFail, LarkInvalidArguments, LarkUnknownError, gen_exception
 from feishu.helper import to_native
 from feishu.internal_cache import _Cache
@@ -78,7 +79,9 @@ class OpenLark(APIIDMixin,
                APIDriveCommentMixin,
                APIDriveSuiteMixin,
                APIDriveSheetMixin,
-               APIDrivePermissionMixin):
+               APIDrivePermissionMixin,
+               APIBitableMixin
+               ):
     __app_access_token = ''
     __app_access_token_expire = 0
     __tenant_access_token = ''
