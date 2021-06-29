@@ -5,4 +5,12 @@ OpenLark: Lark Open Platform Python SDK  / 飞书开发平台 Python SDK
 
 ## Doc
 
-使用方法见 [Wiki](https://code.yogorobot.io/yogorobot/feishu-python-sdk/wiki)
+基础使用方法：
+```python
+from feishu.api import OpenLark
+
+lark = OpenLark(app_id, app_secret)
+lark.xxx
+```
+
+详细使用方法见 [Wiki](https://code.yogorobot.io/yogorobot/feishu-python-sdk/wiki)
