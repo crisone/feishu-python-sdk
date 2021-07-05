@@ -12,9 +12,9 @@ lark = OpenLark(app_id, app_secret)
 ```
 ### 多维表格
 
-```
+```python
 # api_bitable.py
-lark.xxxx
+lark.xxxx()
 ```
 
 
